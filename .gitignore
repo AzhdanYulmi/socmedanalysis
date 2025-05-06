@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+*.egg
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static_root/
+*.pot
+*.mo
+*.pyc
+instance/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+celerybeat-schedule
+*.sqlite3
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Pipenv / Poetry / Other
+Pipfile.lock
+poetry.lock
+
+# Test and debug
+*.cover
+.cache/
+.noseids
+.pytest_cache/
+
+# Env files
+.env
+.env.*
+
+# Build
+build/
+dist/
+*.egg-info/
